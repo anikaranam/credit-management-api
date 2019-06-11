@@ -13,10 +13,10 @@ var router = express.Router();
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "ravi",
-  database: "TSFCM"
+  host: "us-cdbr-iron-east-02.cleardb.net",
+  user: "b0d97120ee39cd",
+  password: "d4dc602b",
+  database: "heroku_1caccfcd6f38eaa"
 });
 
 router.get('/users', function(req, res, next) {
